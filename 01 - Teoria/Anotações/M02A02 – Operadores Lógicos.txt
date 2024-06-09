@@ -1,0 +1,30 @@
+	
+	OPERADORES LÓGICOS:
+		O primeiro operador lógico é a conjunção, ela usa o atributo "e"
+		O segundo operador é a disjunção, ela usa o atributo "ou".
+		O terceiro operador é o de negação, o not, representado no portugol studio por "nao"
+
+
+	Estudar tabela verdade e operadores lógicos.
+
+	Nas conjunções 'e', todas as premissas devem ser verdadeuras para que o resultado seja verdadeiro.
+		V e V = V
+		V e F = F
+		F e V = F
+		F e F = F
+
+
+	Disjução "OU" 
+	Na disjunção "Ou" basta um dos valores ser positivo que o resultado sempre será verdadeiro.
+		V OU V = V
+		V OU F = V
+		F OU V = V
+		F OU F = F
+
+	O operador de negação inverte tudo, o que é positivo vira negativo e vice-versa.
+
+	A ordem de precedência:
+		1º é fazer todas as negações(nao / not), 
+		2º depois conjunções(e) e disjunções(ou);
+
+	PROCEDÊNCIA TOTAL → PARÊNTESES () → ARITMÉTICOS (+ - / *) → OPERADORES RELACIONAIS (>, <, ==, !=, >=, =<) → OPERADORES LÓGICOS (e ou não)

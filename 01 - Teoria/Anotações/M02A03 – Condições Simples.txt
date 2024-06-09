@@ -1,0 +1,7 @@
+Estruturas de controle tem esse nome porque você consegue controlar o que será executado, quando e quantas vezes será executado.
+Uma estrutura seuqencial é um a estrutura que todo programa deve seguir e obrigatória. Não existem possibilidades de pular comandos de acordo com as condições;
+
+Os chamados "fluxos" são as "direções" que o teu programa vai tomar de acordo com as condições;
+Condições simples é quando você executa alguma coisa quando a condição é verdadeira.
+
+A sintaxa do "SE" é SE (condição) {abertura de bloco}

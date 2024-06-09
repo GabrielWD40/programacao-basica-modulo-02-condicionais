@@ -1,0 +1,26 @@
+Dentro da programação existem dois blocos: o bloco verdadeiro e o bloco falso.
+Resumidamente, o bloco verdadeiro é aquele que é executado caso a condição seja verdadeira.E o bloco falso é o executado quando a condição não é verdadeira.
+
+Se os blocos verdadeiro e falso tiverem apenas um comando você não vai precisar abrir as chaves{} porque a delimitação deles é opcional.É que nem no exemplo do par ou ímpar.
+
+programa
+{
+	funcao inicio()
+	{
+		//declaração de variáveis
+		inteiro numero
+		escreva("Digite um número inteiro: ")
+		leia(numero)
+		escreva("Você acabou de digitar o número " + numero)
+		
+		Repare que não há a abertura de bloco abaixo {}.
+		se (numero % 2 == 0)
+			escreva(" e ele é PAR!")
+		senao
+			escreva(" e ele é ÍMPAR")	
+		
+	}
+}
+
+
+	

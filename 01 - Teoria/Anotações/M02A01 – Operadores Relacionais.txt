@@ -1,0 +1,22 @@
+	
+    Exclamação em programação geralmente quer dizer 'não'.
+      Seguem alguns Operadores relacionais:
+
+	== → igual
+	!= → diferente
+	>  → maior
+	<  → menor
+	>= → maior ou igual
+	<= → menor ou igual
+
+    Vamos ter duas variáveis, A e B.
+
+	A == B → A é igual a B
+	A != B → A é diferente de B
+	A > B → A é maior que B
+	A < B → A é menor que B
+	A >= B → A é igual ou maior que B
+	A <= B → A é igual ou menor que B
+
+	O resultado de uma expressão que contenha um operador relacional é sempre do tipo lógico (VERDADEIRO / FALSO). 
+	Dentro de uma mesma expressão só é possível manter um operador relacional.

@@ -1,0 +1,29 @@
+Estruturas aninhadas são estruturas que ficam umas dentro da outra.
+As vezes, duas escolhas não são sulficientes. Há mais do que 2 e nesses casos, usamos as condições aninhadas para nos ajudar.
+
+
+
+Se você tiver uma condição "SE" dentro de um "SENÃO", poderás simplificá-los!
+Por exemplo
+
+No código abaixo vamos que o código não está simplificado
+		
+		se(n1>n2){
+		    escreva("O maior é " + n1)
+		}senão{
+	 	   se(n1<n2){
+			escreva(n1 + " é menor que " + n2)
+		     }senao{
+			escreva("Eles são iguais.")
+		   }
+		}
+
+Para simplificá-lo, você deverá unir o senão com o se:
+
+	se(n1>n2){
+	   escreva(n1 + "É o maior!")
+	}senao se (n1<n2){
+	   escreva(n2 + "É o maior!")
+	}senao{
+	   escreva("Eles são iguais!")
+	}

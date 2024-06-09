@@ -1,0 +1,38 @@
+Vamos falar sobre o método escolha, não é muito usual mas é bem útil.
+
+O método escolha é uma condição de múltiplos valores que são valores fixos.
+Para usar ele faça:
+
+inteiro numero
+escreva("Digite um número: ")
+leia(numero)
+
+escolha (numero) {
+	#abertura de bloco
+	
+	caso 1:
+	     escreva("UM") // vai escrever "um" se o número for um.
+	     pare (comando para desviar o bloco para fora da verificação e funcionar corretamente)  
+	
+	caso 2:
+ 	     escreva("DOIS")
+	     pare (comando para desviar o bloco para fora da verificação e funcionar corretamente)
+	
+	caso 3:
+	     escreva("TRÊS")
+ 	     pare (comando para desviar o bloco para fora da verificação e funcionar corretamente)
+
+	caso 4:
+	     escreva("QUATRO")
+	     pare (comando para desviar o bloco para fora da verificação e funcionar corretamente)
+
+	caso contrário: (caso as condições não sejam satisfeitas)
+	     escreva("ERRO")
+	     pare (comando para desviar o bloco para fora da verificação e funcionar corretamente)
+}
+
+*Importante lembrar que os valores testados só podem ser do tipo inteiro ou caracter(único caractér) entre aspas simples.
+
+Outra coisa, se você não colocar o comando "pare", ele executa tudo que tem no blco satisfeito pra baixo até encontrar um "pare" ou acabar o programa. ou seja, faz o que não deveria fazer;
+
+A função escolha é uma boa opção para a criação de menu de escolhas!
